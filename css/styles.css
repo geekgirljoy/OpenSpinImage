@@ -1,0 +1,12 @@
+body{
+    background-color: #232b39;
+    font: 1em sans-serif;
+    color: #fff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open Spin Image</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <link rel="stylesheet" type="text/css" href="./css/OpenSpinImage.css">
+    </head>
+    <body>
+        <span class="center">
+            <h1>Open Spin Image</h1>
+            <p>Open Spin Image is a lightweight JavaScript "library" (it's really more a set of a few functions and a couple of CSS styles) that allows you to create a 360 degree spin image viewer from a set of images. Download from <b>GitHub:</b> <a href="https://github.com/geekgirljoy/OpenSpinImage">https://github.com/geekgirljoy/OpenSpinImage</a></p>
+        </span>
+        
+        <span class="center">
+            <h3>Example Spin Image</h3>
+            <p>Press one of the arrows to rotate the image.</p>
+            <OpenSpinImage set-path="Images/SpinImageSets" image-set="Test1" first-image="1" current-image="1" last-image="360" image-format="jpg" interval="1"></OpenSpinImage>
+        </span>
+
+        <span class="center">
+            <h3>Another Example</h3>
+            <p>These images can be 360 degree product scans or animation frames.</p>
+            <OpenSpinImage set-path="Images/SpinImageSets" image-set="Test2" first-image="1" current-image="1" last-image="360" image-format="jpg" interval="1"></OpenSpinImage>
+        </span>
+
+        <span class="center">
+            <h3>Example 360 Product Preview</h3>
+            <p>You can easily create 360 product previews and even set the frame/rotation speed .</p>
+            <OpenSpinImage set-path="Images/SpinImageSets" image-set="Test3" first-image="1" current-image="1" last-image="60" image-format="jpg" interval="50"></OpenSpinImage>
+        </span>
+
+        <script>
+            
+        </script>
+        <script type="text/javascript" src="js/OpenSpinImage.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+OpenSpinImage{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+OpenSpinImage .canvas{
+    position: absolute;
+}
+
+.OpenSpinImageArrow{
+    position: absolute;
+    top: 0px;
+    font-size: 100px;
+    color: rgba(255,255,255,255);
+    cursor: pointer;
+    text-align: center;
+}
+
+.OpenSpinLeft{
+    left: 0px;
+}
+
+.OpenSpinRight{
+    right: 0px;
+}
